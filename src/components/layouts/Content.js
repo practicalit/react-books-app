@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import List from "../members/List";
+import Categories from "../books/Categories";
 
 export default class Content extends React.Component {
   render() {
@@ -20,6 +21,9 @@ export default class Content extends React.Component {
                     <Switch>
                       <Route exact path="/list">
                         <List />
+                      </Route>
+                      <Route exact path="/categories">
+                        <Categories />
                       </Route>
                     </Switch>
                   </div>
