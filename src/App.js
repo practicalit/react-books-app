@@ -6,10 +6,11 @@ import Content from './components/layouts/Content';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
+  let color="black";
   return (
     <div>
       <BrowserRouter>
-      <Header />
+      <Header color={color}/>
       <SideBar />
       <Content />
       </BrowserRouter>

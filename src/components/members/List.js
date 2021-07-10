@@ -13,6 +13,7 @@ class List extends Component{
         this.getBooks().then(response => {
             this.setState({books: response.data});
         })
+        .catch(error => console.log(error));
     }
     
     getBooks = () => {
@@ -22,8 +23,8 @@ class List extends Component{
     }
 
     render = () => {
-        return (this.state.books.map((book, index) => {
-                return <div key={book.id}>{book.title}</div>
+        return (this.state.books.map(book => {
+                return <div key={book.id}>{book.title}x</div>
             })
         );
     }
