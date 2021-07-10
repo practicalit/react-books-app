@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "fiction"
+        },
+        {
+            "id": 2,
+            "title": "history"
+        },
+        {
+            "id": 3,
+            "title": "tech"
+        },
+        {
+            "id": 4,
+            "title": "cooking"
+        }
+    ],
+    "books": [
+        {
+            "title": "long walk to freedom",
+            "author": "nelson mandella",
+            "category": 2
+        },
+        {
+            "title": "how to create desert",
+            "author": "simon clarks",
+            "category": 2
+        },
+        {
+            "title": "arabian nights",
+            "author": "shelly balks",
+            "category": 1
+        },
+        {
+            "title": "collective java",
+            "author": "junior say",
+            "category": 3
+        },
+        {
+            "title": "mastering python",
+            "author": "mr python",
+            "category": 3
+        },
+        {
+            "title": "surviving summer",
+            "author": "martha stewart",
+            "category": 4
+        }
+    ]
+}
