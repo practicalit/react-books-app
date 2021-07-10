@@ -67,7 +67,7 @@ export default class SideBar extends Component {
                         </div>
                     </form>
                     <ul className="sidebar-menu" data-widget="tree">
-                        <li className="header">MAIN NAVIGATION</li>
+                        <li className="header">Categories</li>
                         <li className="treeview">
                             <a href="#">
                                 <i className="fa fa-files-o"></i>
